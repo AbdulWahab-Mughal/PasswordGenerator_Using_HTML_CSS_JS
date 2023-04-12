@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh;
+    width: 100%; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+
+    height: 100vh;
+    width: 35%;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    
+}
+div.container{
+    border: none;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 85%;
+    opacity: .9;
+    background:radial-gradient( lightblue,lightcyan);
+    /* color:lightcyan; */
+
+}
+
+#alert{
+    text-align: center;
+    color: red;
+    margin-left: 5px;
+}
+::placeholder{
+    
+    text-align: center;
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h3{
+    line-height: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input#result{
+    border: none;
+    text-align: center;
+    padding:7px 55px;
+    border-radius: 25px;
+
+}
+input#range{
+    border: none;
+    text-align: center;
+    padding:4px 0px;
+    border-radius: 25px;
+
+}
+
+button{
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    padding: 15px;
+    border: none;
+    color: azure;
+    background:radial-gradient(blue,black) ;
+    opacity: .8;
+    
+}
+button:hover{
+    padding: 17px;
+    background:radial-gradient( blue,lightcyan);
+}
+button.copy:hover{
+    padding: 15px;
+    background:radial-gradient( blue,lightcyan);
+}
+.container h1{
+    opacity: .8;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    text-align: center;
+    padding: 7px;
+    font-family: cursive;
+    width: 100%;
+    /* border-radius: 20px; */
+    color: azure;
+    background: radial-gradient(blue,black);
+}

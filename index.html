@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordGenerator</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="new">
+                <h1>PasswordGenerator</h1>
+                <br>
+                <input type="text" id="result" placeholder="Generator">
+                <button class="copy" onclick="copyPassword()">Copy</button>
+                <br><br>
+                <h3>Range</h3>
+                <br>
+                <input placeholder="Enter Range" type="text" id="range"><span id="alert"></span>
+                
+                <br><br>
+                <label for="lower">hasLower</label>
+                <input type="checkbox" id="lower" checked>
+                <br><br>
+                <label for="upper">hasUpper</label>
+                <input type="checkbox" id="upper"checked>
+                <br><br>
+                <label for="numbers">hasNumber</label>
+                <input type="checkbox" id="numbers" checked>
+                <br><br>
+                <label for="specialchar">hasSpecialChar</label>
+                <input type="checkbox" id="special" checked>
+                <br><br>
+                <div class="btn">
+                <button  onclick="generatePassword()">Generate Password</button>
+                <!-- <button  onclick="copyPassword()">Copy</button> -->
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
